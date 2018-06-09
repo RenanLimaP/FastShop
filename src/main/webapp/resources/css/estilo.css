@@ -1,0 +1,355 @@
+/* ============== Layout ==================== */
+
+html,
+body,
+	{
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	background-attachment: fixed;
+	font-family: sans-serif;
+	font-size: 13px;
+	overflow-x: hidden;
+}
+
+/*----Barra de Navegação--*/
+
+.nav .nav-link:hover,
+.dropdown-item {
+	color: #a2a0a0;
+	font-weight: bold;
+	background-color: #404040;
+	
+}
+
+nav.navbar-cor {
+	background-color: #bc0206;
+}
+
+#search {
+	border-radius: 0px;
+	color: white;
+	background-color: #6f0306;
+	transition: background 0.4s, color 0.4s;
+	border: none;
+}
+
+#search:hover {
+	border-radius: 0px;
+	color: white;
+	background-color: gray;
+	border: none;
+}
+
+.fa-search {
+	font-size: 37px !important;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	overflow: hidden;
+	background-color: #6f0306;
+	margin: 10px 7px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+#rodape .nav a {
+	font-weight: bold;
+	color: white;
+}
+
+.nav .nav-link,
+.dropdown-item {
+	color: #a2a0a0;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	background-color: #404040;
+}
+
+.dropdown-item:hover {
+	background-color: #404040;
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+#rodape .nav a:hover {
+	color: #404040;
+}
+
+.back-carousel {
+	background: url(../img/back2.jpg);
+}
+
+.badge-light {
+	color: white;
+	background: transparent;
+}
+
+#meu-carrinho {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font: icon;
+}
+
+#minha-lista {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font: icon;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#titulo {
+	padding: 0;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 0;
+	font-size: 2.3em;
+	color: #b70f15;
+}
+
+
+#ajuste {
+   	margin-right: auto;
+	border: 0;
+	color: #b70f15;
+}
+
+a#lnkEsqueciMeuEmail {
+    background: none;
+    color: #b70f15;
+    margin-left: 265px;
+}
+
+a#lnkEmailMudou {
+    background: none;
+    color: #b70f15;
+    margin-right: 20px;
+}
+
+a#lnkEsqueciMinhaSenha {
+	color: #b70f15;
+	margin-left: 370px;
+}
+
+form#loginCentralizar {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*---------BotÃµes--------*/
+
+.btn-custom {
+	color: white;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-vinho {
+	font-size: 20px;
+	font-weight: bold;
+	background: #6f0306;
+}
+
+.btn-vinho:hover {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #bc0206;
+	color: white;
+}
+
+.btn-cinza {
+	background: #404040;
+}
+
+.btn-cinza:hover {
+	background-color: gray;
+	color: white;
+}
+
+.btn-link {
+	text-decoration: none !important;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f7941d;
+}
+
+.btn-link:hover {
+	text-decoration: none !important;
+	font-weight: bold;
+	color: white;
+}
+
+/*----------Inputs Home-----------*/
+
+#barra-pesquisa {
+	height: 49px;
+	border-radius: 0;
+	width: 700px !important;
+}
+
+/*----Rodape----*/
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.col-md-4 ul {
+	padding-left: 60px;
+}
+
+/*===============================Tipografia=========================*/
+
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 50px;
+	letter-spacing: -0.05em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 35px;
+	letter-spacing: -0.04em;
+	font-weight: 700;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/*===============================Carrinho=========================*/
+
+#tam {
+	width: 65px;
+	height: 50px;
+	font-size: 1.0em;
+	text-align: center;
+}
+/*==========================Pagamento=============================*/
+
+.img-thumbnail {
+	height: 260px;
+}
+
+
+/*========================Cadastro========================= */
+
+form#cadCentralizar {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*========================telaDetalhes========================= */
+#cor{
+	padding: 0 5%;
+    background-color: #f2f0ee;
+}
+
+.botao-descricao{
+	background: #6f0306;
+	color: #fbfaf8;
+	float: right;
+	margin-top: 10px;
+}
+
+#botao-descricao:hover {
+	font-weight: bold;
+	background-color: #bc0206;
+	color: white;
+}
+
+.aumentarLetra{
+	font-size: 150%;
+}
+
+.descricaoJogo{
+	margin-bottom: 200px;
+    font-size: 1.8em;
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 2px solid rgba(108, 105, 105, 0.3);
+    padding-bottom: .35em;
+    margin-bottom: .6em;
+	color: #6c6a69;
+}
+
+.dados{
+	font-size: 1.3em;
+    line-height: 1.5;
+    color: #6c6a69;
+	font-weight: 400px;
+	margin-top: 1em;
+	text-align: justify;
+}
+
+.AjustarTesto{
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #6c6a69;
+	font-weight: 400px;
+	margin-top: 1em;
+	text-align: justify;
+}
+
+
+.textoCarrinho{
+	font-size: .8em;
+    padding: .2em;
+    vertical-align: middle;
+}
+
+.formularioDoCarrinho-item-remover-imagem{
+	width: 0.5em;
+    height: 1.5em;
+}
+.atualizar{
+	background-image: 
+	url(../img/atualizar.png);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	vertical-align: middle;
+    background-color: transparent;
+    background-size: 75%;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+}
+
+th{
+	text-align: center;
+	vertical-align: middle;
+}
+tr td{
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+
+
+
